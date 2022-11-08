@@ -1,0 +1,32 @@
+
+.button-prev, .button-next {
+    cursor: pointer;
+    color: #6c136f;
+    font-size: 4rem;
+    border: none;
+    outline: none;
+    background-color: #dfe5e8;
+}
+
+.dot-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot-active {
+    background-color: #808080;
+}
+
+.show {
+    display: block;
+}
