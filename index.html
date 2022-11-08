@@ -7,10 +7,14 @@
     <title>Price Table</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slideshow.css">
 </head>
 <body>
-    <div id="price-table">
-        <div class="cart">
+    <div id="price-table" class="slideshow">
+
+        <button class="button-prev">&#10094;</button>
+
+        <div class="cart slide">
             <div class="cart__header">
                 <div class="cart__header-ocean">
                     <h2 class="cart__title absolute-center">OCEAN</h2>
@@ -36,7 +40,7 @@
             </div>
         </div>
         
-        <div class="cart">
+        <div class="cart slide">
             <div class="cart__header">
                 <div class="cart__header-mountain">
                     <div class="absolute-center">
@@ -69,8 +73,7 @@
             </div>
         </div>
         
-        
-        <div class="cart">
+        <div class="cart slide">
             <div class="cart__header">
                 <div class="cart__header-forest">
                     <h2 class="cart__title absolute-center">FOREST</h2>
@@ -95,6 +98,11 @@
                 </div>
             </div>
         </div>
+
+        <button class="button-next">&#10095;</button>
     </div>
+    <div class="dot-container"></div>
+
+    <script src="slideshow.js"></script>
 </body>
 </html>
